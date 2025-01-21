@@ -1,0 +1,29 @@
+/* Orders.css */
+.orders {
+    padding: 20px;
+  }
+  
+  .orders__list {
+    margin-top: 20px;
+  }
+  
+  .order {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .order h3 {
+    margin: 0 0 5px 0;
+  }
+  
+  .order ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order li {
+    margin-bottom: 5px;
+  }
+  

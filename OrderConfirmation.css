@@ -1,0 +1,22 @@
+/* OrderConfirmation.css */
+.order-confirmation {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.order-confirmation h1 {
+    color: #00A912;
+}
+
+.order-confirmation p {
+    margin: 10px 0;
+}
+
+.confirm__img {
+    width:30%
+}

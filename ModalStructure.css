@@ -1,0 +1,66 @@
+.modalStructure {
+    display: flex;
+    margin-top: 100px;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.modalStructure__info {
+    padding-left: 40px;
+    margin-top: 100px;
+}
+
+.modalStructure__image {
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+  }
+
+.modalStructure__rating {
+    display: flex;
+  }
+
+.modalStructure__title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.modalStructure__price {
+    font-size: 20px;
+}
+
+.modalStructure__confirm {
+    font-size: 20px;
+}
+
+.modalStructure__info > button {
+        background: #6A9AB0;
+        margin-top: 5px;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        border: none;
+        transition: all 0.3s ease;
+        color: white;
+    }
+    
+.modalStructure__info > button:hover {
+        background-color: #3A6D8C;
+        transform: scale(1.05) 
+} 
+
+.modalStructure__dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+select {
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
